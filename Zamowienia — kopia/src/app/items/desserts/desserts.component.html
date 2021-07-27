@@ -1,0 +1,25 @@
+<div class="Card">
+      <div class = "col-sm-10" fxLayout="row wrap" >
+          <div fxFlex="25%" *ngFor="let ldesserts of desserts$ | async" >
+      <mat-card class="Card">
+        <mat-card-header style="text-align: 50px;" >
+          <mat-card-title>{{ldesserts.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src = "../../../assets/image/pancake.jpg">
+        <mat-card-content>
+          <p class="p">
+            {{ldesserts.description}}
+  
+          </p>
+          <p class="p1">Cost: {{ldesserts.cost}} zł</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="but" (click)="addToCart(ldesserts)">Order Now</button>
+        </mat-card-actions>
+      </mat-card>
+      
+  </div>
+  </div>
+  <br>
+  <app-cart></app-cart>
+  </div>

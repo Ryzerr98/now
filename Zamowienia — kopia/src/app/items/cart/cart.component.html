@@ -1,0 +1,21 @@
+<div class="cart">
+  <div class="cart-item" *ngFor="let item of items">
+        <mat-card >
+          <mat-card-header style="text-align: 50px;" >
+            <mat-card-title>Cart</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src = "../../../assets/image/online-shopping-cart-icon-24 (1).jpg">
+          <div class="cart-item" *ngFor="let item of items">
+            <span>{{ item.name }}</span>
+           <span>   {{ item.cost| currency }}</span>
+          </div>
+          <div>
+            
+          </div>
+          <mat-card-actions>
+            <button mat-button class="but">Buy Now</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+ 

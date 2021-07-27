@@ -1,0 +1,63 @@
+{
+    "burgers": [{
+        "id": 1,
+        "name": "Burger",
+        "cost": 10.5,
+        "description":"Burger with beef, lettuce, gouda cheese tomatoe onion and ketchup.        ",
+        "image": "{../../../assets/image/burger.jfif}"
+    },
+    {
+        "id": 2,
+        "name": "Vege Burger",
+        "cost": 12.5,
+        "description":"Burger with eggplant, zucchini, cucumber, hallumi cheese and mustard.",
+        "image": "{../../../assets/image/burger_hal.jfif}"
+        
+    },
+    {
+        "id": 3,
+        "name": "Mexican Burger",
+        "cost": 17.5,
+        "description":"Burger with double beef, lettuce, red onion, tomatoe, cheddar cheese, jalapeno and ketchup.",
+        "image": "{../../../assets/image/burger_meks.jfif}"
+    },
+    {
+        "id": 4,
+        "name": "Cheese Burger",
+        "cost": 15.5,
+        "description":"Burger with beef,red onion, cucumber, hallumi,gouda cheese and burgers sauce.",
+        "image": "{../../../assets/image/burger_hal.jfif}"
+        
+    }
+    ],
+    "salads":[
+        {
+        "id": 1,
+        "name": "Cezar Witch Chicken",
+        "cost": 21.5,
+        "description":"Salad with lettuce tomatoe friend chicken and cezar sauce"
+        }
+    
+],
+    "desserts":[{
+        "id": 1,
+        "name": "Pancake",
+        "cost": 15.5,
+        "description":"Pancke with Clone syroup"
+    }],
+    "beverages":[{
+        "id": 1,
+        "name": "Pepsi",
+        "cost": 5.5,
+        "description":"carbonated drink with a size of 200 ml"
+    },
+    {
+        "id": 2,
+        "name": "Water",
+        "cost": 3.5,
+        "description":"Mineral whater with a size of 400 ml "
+    }]
+    
+
+
+}

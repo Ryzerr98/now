@@ -1,0 +1,34 @@
+.content {
+    padding: 16px;
+}
+
+.content > mat-card {
+    width: 200px;
+}
+.Card{
+    width: 70%;
+    margin-right: 10px;
+}
+.p{
+    width: 90%;
+    color: aquamarine;
+}
+.p1{
+    width: 90%;
+    color: red;
+    font-size: 22px;
+}
+
+.but{
+    margin-left: 7px;
+    font-size: 30px;
+    background-color: orange;
+    color: rgb(235, 235, 235);
+    width: 95%;
+   
+}
+.cart{
+    height: 20%;
+    width: 20%;
+    margin-right: 10px;
+}

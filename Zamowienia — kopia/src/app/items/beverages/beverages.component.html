@@ -1,0 +1,26 @@
+<div class="Card">
+        <div fxLayout="row wrap" >
+            <div fxFlex="25%" *ngFor="let lbeverages of beverages$ | async" >
+        <mat-card class="Card">
+          <mat-card-header style="text-align: 50px;" >
+            <mat-card-title>{{lbeverages.name}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src = "../../../assets/image/cola.jpg">
+          <mat-card-content>
+            <p class="p">
+              {{lbeverages.description}}
+    
+            </p>
+            <p class="p1">Cost: {{lbeverages.cost}} zł</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button class="but" (click)="addToCart(lbeverages)">Order Now</button>
+          </mat-card-actions>
+        </mat-card>
+     
+    </div>
+  </div>
+  <br>
+  <app-cart></app-cart>
+    </div>
+
